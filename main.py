@@ -10,11 +10,8 @@ while True:
             stored += number_dict.get(str(password)[i])
         print("Your password has been encoded and stored!")
     elif choice == '2':
-        decoded = ""
-        if stored != "":
-            for i in range(len(stored)):
-                decoded += number_dict1.get(stored[i])
-            print(f"The encoded password is {stored}, and the original password is {decoded}.")
+        #  partner write code here
+        print()
     elif choice == '3':
         break
     else:
